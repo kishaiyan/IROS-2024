@@ -8,9 +8,9 @@ import Schedule from './components/schedule';
 import LogoSection from './components/logosection';
 function App() {
   return (
-    <div className="grid sm:grid-cols-2">
-  <div className="h-screen flex items-center justify-center ">
-    <div className="sm:fixed top-1/2 transform -translate-y-1/2 p-4">
+    <div>
+  <div className="items-center justify-center">
+    <div>
       <LogoSection />
     </div>
   </div>
