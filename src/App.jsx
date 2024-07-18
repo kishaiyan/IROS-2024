@@ -8,11 +8,9 @@ import Schedule from './components/schedule';
 import LogoSection from './components/logosection';
 function App() {
   return (
-    <div>
-  <div className="items-center justify-center">
-    <div>
+    <>
+  <div>
       <LogoSection />
-    </div>
   </div>
   <div className="h-screen ml-3 pr-5 pt-5">
     <Introduction />
@@ -20,7 +18,7 @@ function App() {
     <Schedule />
     <Organizers />
   </div>
-</div>
+</>
 
   );
 }

@@ -17,7 +17,7 @@ export default function Speakers(){
   return(
     <>
     <h1 className="text-3xl">Speakers</h1>
-    <div className="grid sm:grid-cols-3">
+    <div className="grid md:grid-cols-2">
       <div className="grid grid-cols-12 gap-3 m-4">
         <div className="col-span-4">
           <img src={image1} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
