@@ -117,7 +117,7 @@ export default function Schedule(){
     <tr className="bg-orange-300">
       <td className="border-b-2 border-gray-300"><strong>18:00 - 19:00</strong></td>
       <td className="border-b-2 border-gray-300 text-center" colSpan="2">
-        Networking and Lunch
+        Networking and Dinner
       </td>
     </tr>
   </tbody>
