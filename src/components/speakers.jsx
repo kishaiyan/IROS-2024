@@ -16,7 +16,7 @@ import image12 from "../assets/speakers/speak12.jpeg"
 export default function Speakers(){
   return(
     <>
-    <h1 className="text-3xl">Speakers</h1>
+    <h1 className="text-3xl mb-10">Speakers</h1>
     <div className="grid md:grid-cols-2">
       <div className="grid grid-cols-12 gap-3 m-4">
         <div className="col-span-4">
@@ -31,13 +31,13 @@ export default function Speakers(){
       </div>
       <div className="grid grid-cols-12 gap-3 m-4">
         <div className="col-span-4">
-          <img src={image2} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
+          <img src={image4} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
         </div>
         <div className="col-span-8">
-        <p className="text-base text-wrap font-extrabold">Development of agriculture robots using AI for smart agriculture in Japan</p>
-          <h4 className="font-base">Liangliang Yang</h4>
-          <p className="italic font-thin text-sm">Kitami Institute of Technology</p>
-          <a href="https://hanadasearch.office.kitami-it.ac.jp/searchen/show/id/1304" className="text-blue-800 text-xs hover:underline">Personal Website</a>
+        <p className="text-base text-wrap font-extrabold">Enhancing Precision Livestock Management with Advanced Machine Vision and Deep Learning Techniques</p>
+          <h4 className="font-base">Meili Wang</h4>
+          <p className="italic font-thin text-sm">NorthWest A&F University</p>
+          <a href="https://cie.nwsuaf.edu.cn/szdw/js/2012110003/index.htm" className="text-blue-800 text-xs hover:underline">Personal Website</a>
         </div>
       </div>
       <div className="grid grid-cols-12 gap-3 m-4">
@@ -54,13 +54,13 @@ export default function Speakers(){
       </div>
       <div className="grid grid-cols-12 gap-3 m-4">
         <div className="col-span-4">
-          <img src={image4} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
+          <img src={image2} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
         </div>
         <div className="col-span-8">
-        <p className="text-base text-wrap font-extrabold">Enhancing Precision Livestock Management with Advanced Machine Vision and Deep Learning Techniques</p>
-          <h4 className="font-base">Meili Wang</h4>
-          <p className="italic font-thin text-sm">NorthWest A&F University</p>
-          <a href="https://cie.nwsuaf.edu.cn/szdw/js/2012110003/index.htm" className="text-blue-800 text-xs hover:underline">Personal Website</a>
+        <p className="text-base text-wrap font-extrabold">Development of agriculture robots using AI for smart agriculture in Japan</p>
+          <h4 className="font-base">Liangliang Yang</h4>
+          <p className="italic font-thin text-sm">Kitami Institute of Technology</p>
+          <a href="https://hanadasearch.office.kitami-it.ac.jp/searchen/show/id/1304" className="text-blue-800 text-xs hover:underline">Personal Website</a>
         </div>
       </div>
       <div className="grid grid-cols-12 gap-3 m-4">

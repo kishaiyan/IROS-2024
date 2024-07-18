@@ -1,15 +1,16 @@
 export default function Submission(){
   return (
-    <div className="p-4">
-      <h4 className="text-lg font-bold mb-4">Submission guidelines</h4>
-      <ul className="list-disc pl-5">
-        <li>The submission should be from 2 to 8 pages long. The paper should follow the <a href="https://ras.papercept.net/conferences/support/tex.php" className="text-blue-400 hover:text-blue-800">IEEE RAS Template</a>.</li>
-        <li>The review process is single-blind.</li>
-        <li>Submissions should contain a clear focus on field robotics and feature lessons learned and/or field experience reports.</li>
-        <li>We welcome prospective and conceptual papers as well.</li>
-        <li>The papers should be submitted on <a href="https://cmt3.research.microsoft.com" className="text-blue-400 hover:text-blue-800">Microsoft CMT</a>.</li>
-        <li>Accepted papers will be available on the workshop website. The authors of accepted papers will be invited to present their results in a poster session during the workshop.</li>
-      </ul>
+    <div className="mt-8">
+      <h4 className="text-lg font-bold mb-4 ml-1">Submission</h4>
+      <p className="ml-3 font-lg">We encourage researchers to submit a short paper (maximum 4 page excluding references) or a preprint of relevant work. Accepted abstracts will be posted on the workshop website and will not appear in the official IEEE proceedings. You are encouraged to use IROS's suggested paper <a href="https://ras.papercept.net/conferences/support/support.php" className="text-blue-500 hover:text-blue-800">template</a> and upload a PDF. The reviewing process is single-blind and will be carried out by the workshop organizers.</p>
+
+    <p className="ml-3 mt-4">Please submit your extended abstract via XXXX</p>
+
+    <p className="ml-3 mt-3">Accepted papers will have the opportunity to present their work/ideas in a poster session. </p>
+    <h3 className="mt-5 text-lg font-bold ml-1 mb-4">Awards</h3>
+    <p className="ml-3 font-lg">The best three poster will be awarded with travel grants.</p>
+
     </div>
+
   )
 }

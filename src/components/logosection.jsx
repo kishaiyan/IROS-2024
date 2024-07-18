@@ -6,7 +6,7 @@ export default function LogoSection(){
     <>
       <div className="text-center">
         <h1 className="text-base md:text-xl lg:text-3xl font-serif font-bold">IROS Workshop on AI and Robotics For Future Farming</h1>
-        <h1 className="text-blue-600">October 2024</h1>
+       <h1 className="text-blue-600">October 14, 2024 Room:3569</h1>
       </div>
       <div className="flex w-full">
          <img className="object-fill" src={logo} alt="Logo of IROS 2024" style={{width:"50%",}}/>
