@@ -1,3 +1,4 @@
+import image1 from "../assets/speakers/speak1.jpeg"
 import image2 from "../assets/speakers/speak2.jpg"
 import image3 from "../assets/speakers/speak3.jpg"
 import image4 from "../assets/speakers/speak4.jpeg"
@@ -9,6 +10,7 @@ import image10 from "../assets/speakers/speak10.jpeg"
 import image11 from "../assets/speakers/speak11.jpg"
 import image12 from "../assets/speakers/speak12.jpeg"
 
+import { Speaker } from "../../sub-components/speaker-card"
 
 
 export default function Speakers(){
@@ -16,118 +18,29 @@ export default function Speakers(){
     <>
     <h1 className="text-3xl mb-10">Speakers</h1>
     <div className="grid md:grid-cols-2">
-      <div className="grid grid-cols-12 gap-3 m-4">
-        <div className="col-span-3">
-          <img src={image4} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
-        </div>
-        <div className="col-span-9">
-        <p className="text-base text-wrap font-extrabold">Enhancing Precision Livestock Management with Advanced Machine Vision and Deep Learning Techniques</p>
-          <h4 className="font-base">Meili Wang</h4>
-          <p className="italic font-thin text-sm">NorthWest A&F University</p>
-          <a href="https://cie.nwsuaf.edu.cn/szdw/js/2012110003/index.htm" className="text-blue-800 text-xs hover:underline">Personal Website</a>
-        </div>
-      </div>
-      <div className="grid grid-cols-12 gap-3 m-4">
-        <div className="col-span-3">
-          <img src={image3} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
-        </div>
-        <div className="col-span-9">
-        <p className="text-base text-wrap font-extrabold">TBD</p>
-          <h4 className="font-base">Lakmal Seneviratne</h4>
-          <p className="italic font-thin text-sm">Center for Autonomous Robotic Systems Mechanical & Nuclear Engineering</p>
-         
-          <a href="https://www.ku.ac.ae/college-people/lakmal-seneviratne" className="text-blue-800 text-xs hover:underline">Personal Website</a>
-        </div>
-      </div>
-      <div className="grid grid-cols-12 gap-3 m-4">
-        <div className="col-span-3">
-          <img src={image2} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
-        </div>
-        <div className="col-span-9">
-        <p className="text-base text-wrap font-extrabold">Development of agriculture robots using AI for smart agriculture in Japan</p>
-          <h4 className="font-base">Liangliang Yang</h4>
-          <p className="italic font-thin text-sm">Kitami Institute of Technology</p>
-          <a href="https://hanadasearch.office.kitami-it.ac.jp/searchen/show/id/1304" className="text-blue-800 text-xs hover:underline">Personal Website</a>
-        </div>
-      </div>
-      <div className="grid grid-cols-12 gap-3 m-4">
-        <div className="col-span-3">
-          <img src={image5} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
-        </div>
-        <div className="col-span-9">
-        <p className="text-base text-wrap font-extrabold">Robotic systems to support the development of resilient and sustainable speciality crops</p>
-          <h4 className="font-base">Yu Jiang</h4>
-          <p className="italic font-thin text-sm">Cornell University</p>
-          <a href="https://cals.cornell.edu/yu-jiang" className="text-blue-800 text-xs hover:underline">Personal Website</a>
-        </div>
-      </div>
-      <div className="grid grid-cols-12 gap-3 m-4">
-        <div className="col-span-3">
-          <img src={image6} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
-        </div>
-        <div className="col-span-9">
-        <p className="text-base text-wrap font-extrabold">AI application for weeds,disease detection and management</p>
-          <h4 className="font-base">Muhammad Naveed Tahir</h4>
-          <p className="italic font-thin text-sm">PMAS-Arid Agriculture University Rawalpindi</p>
-          <a href="https://www.uaar.edu.pk/fcfs/faculty_details.php?dept_id=1&fac_id=93" className="text-blue-800 text-xs hover:underline">Personal Website</a>
-        </div>
-      </div>
-      <div className="grid grid-cols-12 gap-3 m-4">
-        <div className="col-span-3">
-          <img src={image7} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
-        </div>
-        <div className="col-span-9">
-        <p className="text-base text-wrap font-extrabold">TBD</p>
-          <h4 className="font-base">Henry Gordon-Smith</h4>
-          <p className="italic font-thin text-sm">CEO,Agritecture</p>
-          <a href="https://henrygordonsmith.com/" className="text-blue-800 text-xs hover:underline">Personal Website</a>
-        </div>
-      </div>
+      <Speaker image={image1} title="Sensing, and Robotics for High-throughput Phenotyping" name='Changying "Charlie" Li ' post="University of Florida" href="https://abe.ufl.edu/people/faculty/li-changying/"/>
+
+     <Speaker image={image4} title="Enhancing Precision Livestock Management with Advanced Machine Vision and Deep Learning Techniques" name="Meili Wang" post="NorthWest A&F University" href="https://cie.nwsuaf.edu.cn/szdw/js/2012110003/index.htm"/>
      
-      <div className="grid grid-cols-12 gap-3 m-4">
-        <div className="col-span-3">
-          <img src={image9} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
-        </div>
-        <div className="col-span-9">
-          <p className="text-base text-wrap font-extrabold">Field Robotics(TBD)</p>
-          <h4 className="font-base">Guoyu Lu</h4>
-          <p className="italic font-thin text-sm">University of Georgia</p>
-          <a href="https://engineering.uga.edu/team_member/guoyu-lu/" className="text-blue-800 text-xs hover:underline">Personal Website</a>
-        </div>
-      </div>  
-      <div className="grid grid-cols-12 gap-3 m-4">
-        <div className="col-span-3">
-          <img src={image10} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
-        </div>
-        <div className="col-span-9">
-          <p className="text-base text-wrap font-extrabold">Active Perception for Fruit mapping and Autonomous Harvesting</p>
-          <h6 className="font-base">Maren Bennewitz</h6>
-          <p className="italic font-thin text-sm">University of Bonn</p>
-          <a href="https://www.hrl.uni-bonn.de/Members/maren" className="text-blue-800 text-xs hover:underline">Personal Website</a>
-        </div>
-      </div>
-      <div className="grid grid-cols-12 gap-3 m-4">
-        <div className="col-span-3">
-          <img src={image11} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
-        </div>
-        <div className="col-span-9">
-          <p className="text-base text-wrap font-extrabold">In-field High-resolution 3D Plant Phenotyping</p>
-          <h6 className="font-base">Sven Behnke</h6>
-          <p className="italic font-thin text-sm">University of Bonn</p>
-          <a href="https://www.ais.uni-bonn.de/behnke/" className="text-blue-800 text-xs hover:underline">Personal Website</a>
-        </div>
-      </div>
-      <div className="grid grid-cols-12 gap-3 m-4">
-        <div className="col-span-3">
-          <img src={image12} className="w-20 h-20 object-cover" style={{width:'160px', height:"160px"}}/>
-        </div>
-        <div className="col-span-9">
-          <p className="text-base text-wrap font-extrabold">Mobile robotic platform for specialty crop cultivation</p>
-          <h6 className="font-base">Guoqiang Ren</h6>
-          <p className="italic font-thin text-sm">Zhejiang University</p>
-          <a href="https://scholar.google.com/citations?user=_nvSuNUAAAAJ&hl=en" className="text-blue-800 text-xs hover:underline">Personal Website</a>
-        </div>
-      </div> 
+     <Speaker image={image2} title="Development of agriculture robots using AI for smart agriculture in Japan" name="Liangliang Yang" post="Kitami Institute of Technology" href="https://hanadasearch.office.kitami-it.ac.jp/searchen/show/id/1304"/>
+
+     <Speaker image={image5} title="Robotic systems to support the development of resilient and sustainable speciality crops" name="Yu Jiang" post="Cornell University" href="https://cals.cornell.edu/yu-jiang"/>
+
+     <Speaker image={image6} title="AI application for weeds,disease detection and management" name="Muhammad Naveed Tahir" post="PMAS-Arid Agriculture University Rawalpindi" href="https://www.uaar.edu.pk/fcfs/faculty_details.php?dept_id=1&fac_id=93"/>
+
+     <Speaker image={image7} title="TBD" name="Henry Gordon-Smith" post="CEO, Agritecture" href="https://henrygordonsmith.com/"/>
+
+     <Speaker image={image9} title="Field Robotics(TBD)" name="Guoyu Lu" post="University of Georgia" href="https://engineering.uga.edu/team_member/guoyu-lu/"/>
+
+     <Speaker image={image3} title="TBD" name="Lakmal Seneviratne" post="Center for Autonomous Robotic Systems Mechanical & Nuclear Engineering" href="https://www.ku.ac.ae/college-people/lakmal-seneviratne"/>
+
+     <Speaker image={image10} title="Active Perception for Fruit mapping and Autonomous Harvesting" name="Maren Bennewitz" post="University of Bonn" href="https://www.hrl.uni-bonn.de/Members/maren"/>
+
+     <Speaker image={image12} title="Mobile robotic platform for specialty crop cultivation" name="Guoqiang Ren" post="Zhejiang University" href="https://scholar.google.com/citations?user=_nvSuNUAAAAJ&hl=en"/>
+
+     <Speaker image={image11} title="In-field High-resolution 3D Plant Phenotyping" name="Sven Behnke" post="University of Bonn" href="https://www.ais.uni-bonn.de/behnke/"/>
+
+     
       </div>
       <br></br>   
     </>
