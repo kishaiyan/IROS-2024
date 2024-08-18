@@ -10,7 +10,7 @@ import image10 from "../assets/speakers/speak10.jpeg"
 import image11 from "../assets/speakers/speak11.jpg"
 import image12 from "../assets/speakers/speak12.jpeg"
 
-import { Speaker } from "../../sub-components/speaker-card"
+import { Speaker } from "../sub-components/speaker-card"
 
 
 export default function Speakers(){
