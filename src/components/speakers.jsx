@@ -18,7 +18,7 @@ export default function Speakers(){
     <>
     <h1 className="text-3xl mb-10">Speakers</h1>
     <div className="grid md:grid-cols-2">
-      <Speaker image={image1} title="Sensing, and Robotics for High-throughput Phenotyping" name='Changying "Charlie" Li ' post="University of Florida" href="https://abe.ufl.edu/people/faculty/li-changying/"/>
+      <Speaker image={image1} title="Modular agricultural robotic systems (MARS) for real-time in-field phenotyping" name='Changying "Charlie" Li ' post="University of Florida" href="https://abe.ufl.edu/people/faculty/li-changying/"/>
 
      <Speaker image={image4} title="Enhancing Precision Livestock Management with Advanced Machine Vision and Deep Learning Techniques" name="Meili Wang" post="NorthWest A&F University" href="https://cie.nwsuaf.edu.cn/szdw/js/2012110003/index.htm"/>
      

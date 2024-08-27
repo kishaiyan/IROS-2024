@@ -12,7 +12,7 @@ export default function Submission(){
       <ul className="ml-4">
         <li className="list-none"><strong>1<sup>st</sup> Prize - $300</strong></li>
         <li className="list-none"><strong>2<sup>nd</sup> Prize - $200</strong></li>
-        <li className="list-none"><strong>3<sup>srd</sup> Prize - $100</strong></li>
+        <li className="list-none"><strong>3<sup>rd</sup> Prize - $100</strong></li>
       </ul>
 
     <p className="ml-3 mt-4">The Paper submissions will be handled with OpenReview through the following link</p>
