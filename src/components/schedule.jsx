@@ -99,8 +99,8 @@ export default function Schedule(){
 
     <tr>
       <td className="border-b-2 border-gray-300"><strong>17:10 - 17:25</strong></td>
-      <td className="border-b-2 border-gray-300 text-center"><strong>Lakmal Seneviratne</strong> <br></br>(Center for Autonomous Robotic Systems Mechanical & Nuclear Engineering)</td>
-      <td className="border-b-2 border-gray-300 text-center">Invited talk #10 - <strong>TBD</strong></td>
+      <td className="border-b-2 border-gray-300 text-center"><strong>Lakmal Seneviratne</strong> <br></br>(Center for Autonomous Robotic Systems Mechanical)</td>
+      <td className="border-b-2 border-gray-300 text-center">Invited talk #10 - <strong>Challenges for future autonomous greenhouse farming</strong></td>
     </tr>
 
     <tr className="bg-green-200">

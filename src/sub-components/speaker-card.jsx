@@ -10,7 +10,7 @@ return(<div className="grid grid-cols-12 gap-3 m-4">
           <h4 className="font-base">{name}</h4>
           <p className="italic font-thin text-sm">{post}</p>
          
-          <a href={href} className="text-blue-800 text-xs hover:underline">Personal Website</a>
+          <a href={href} className="text-blue-800 text-xs hover:font-bold">Personal Website</a>
         </div>
       </div>)
 }
