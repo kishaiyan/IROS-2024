@@ -6,7 +6,7 @@ export default function Introduction(){
     <br></br>
     <p className="text-justify text-sm md:text-lg mb-3">
     &emsp;More recently, Artificial intelligence (AI), big data, and Internet of Things (IoT) technologies have led farming into a new era of robotics in agriculture. The advent of agricultural robotics research has brought substantial revolutions to improve management efficiency, reduce production costs (e.g. labor force, and energy), and enhance production yields (e.g. grain, rice, meat, milk).  Harvesting robots, picking robots, shearing robots, slaughter robots, etc. significantly enhance the level of agricultural mechanization and automation, which have the potential to tackle the rising food demands of the rapidly growing population. There are further opportunities to apply more advanced sensor technologies, combined with more autonomous systems, to perform tasks on the farm. This workshop will bring more opportunities for synergies in robotic research, facilitating the exchange of innovative ideas across different disciplines such as agricultural engineering and computer science. </p>
-    <p className="text-justify text-sm md:text-lg mb-3">More Information can be seen <a href="https://iros2024-abudhabi.org/workshop-tutorials"className="text-blue-500">here</a>.</p>
+    <p className="text-justify text-sm md:text-lg mb-3">More Information can be seen <a href="https://iros2024-abudhabi.org/workshop-tutorials"className="text-blue-500 hover:font-bold">here</a>.</p>
     <br></br>
     </div>
   )

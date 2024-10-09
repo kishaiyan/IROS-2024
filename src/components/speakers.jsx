@@ -28,11 +28,10 @@ export default function Speakers(){
 
      <Speaker image={image6} title="AI application for weeds,disease detection and management" name="Muhammad Naveed Tahir" post="PMAS-Arid Agriculture University Rawalpindi" href="https://www.uaar.edu.pk/fcfs/faculty_details.php?dept_id=1&fac_id=93"/>
 
-     <Speaker image={image7} title="TBD" name="Henry Gordon-Smith" post="CEO, Agritecture" href="https://henrygordonsmith.com/"/>
 
-     <Speaker image={image9} title="Field Robotics(TBD)" name="Guoyu Lu" post="University of Georgia" href="https://engineering.uga.edu/team_member/guoyu-lu/"/>
+     <Speaker image={image9} title="AI Based 3D Modeling and Assessment for Sustainable Agriculture and Environment" name="Guoyu Lu" post="University of Georgia" href="https://engineering.uga.edu/team_member/guoyu-lu/"/>
 
-     <Speaker image={image3} title="Challenges for future autonomous greenhouse farming" name="Lakmal Seneviratne" post="Center for Autonomous Robotic Systems Mechanical " href="https://www.ku.ac.ae/college-people/lakmal-seneviratne"/>
+     <Speaker image={image3} title="Challenges for future autonomous greenhouse farming" name="Lakmal Seneviratne" post="Center for Autonomous Robotic Systems" href="https://www.ku.ac.ae/college-people/lakmal-seneviratne"/>
 
      <Speaker image={image10} title="Active Perception for Fruit mapping and Autonomous Harvesting" name="Maren Bennewitz" post="University of Bonn" href="https://www.hrl.uni-bonn.de/Members/maren"/>
 

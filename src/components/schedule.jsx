@@ -84,39 +84,32 @@ export default function Schedule(){
       <td className="border-b-2 border-gray-300 text-center"><strong>Muhammad Naveed Tahir</strong><br></br>(PMAS-Arid Agriculture University)</td>
       <td className="border-b-2 border-gray-300 text-center">Invited talks #8 <strong>AI application for weeds, disease detection and management</strong></td>
     </tr>
-   
     <tr>
       <td className="border-b-2 border-gray-300"><strong>16:40 - 16:55</strong></td>
-      <td className="border-b-2 border-gray-300 text-center"><strong>Henry Gordon Smith</strong> <br></br>(CEO of Agritecture)</td>
-      <td className="border-b-2 border-gray-300 text-center">Invited talk #9 - <strong>TBD</strong></td>
-    </tr>
-   
-    <tr>
-      <td className="border-b-2 border-gray-300"><strong>16:55 - 17:10</strong></td>
       <td className="border-b-2 border-gray-300 text-center"><strong>Guoyu Lu</strong> <br></br>(University of Georgia)</td>
-      <td className="border-b-2 border-gray-300 text-center">Invited talk #10 - <strong>Field Robotics(tentative)</strong></td>
+      <td className="border-b-2 border-gray-300 text-center">Invited talk #9 - <strong>AI Based 3D Modeling and Assessment for Sustainable Agriculture and Environment</strong></td>
     </tr>
 
     <tr>
-      <td className="border-b-2 border-gray-300"><strong>17:10 - 17:25</strong></td>
+      <td className="border-b-2 border-gray-300"><strong>16:55 - 17:10</strong></td>
       <td className="border-b-2 border-gray-300 text-center"><strong>Lakmal Seneviratne</strong> <br></br>(Center for Autonomous Robotic Systems Mechanical)</td>
       <td className="border-b-2 border-gray-300 text-center">Invited talk #10 - <strong>Challenges for future autonomous greenhouse farming</strong></td>
     </tr>
 
     <tr className="bg-green-200">
-      <td className="border-b-2 border-gray-300"><strong>17:25 - 17:40</strong></td>
+      <td className="border-b-2 border-gray-300"><strong>17:10 - 17:25</strong></td>
       <td className="border-b-2 border-gray-300 text-center font-semibold" colSpan="2">
         Session 2: Panel Discussion (Moderator: Allen, Wessam : Invited Speakers of Session 2)
       </td>
     </tr>
     <tr className="bg-orange-300">
-      <td className="border-b-2 border-gray-300"><strong>17:40 - 17:45</strong></td>
+      <td className="border-b-2 border-gray-300"><strong>17:25 - 17:30</strong></td>
       <td className="border-b-2 border-gray-300 text-center " colSpan="2">
         Final remarks and close out
       </td>
     </tr>
     <tr className="bg-orange-300">
-      <td className="border-b-2 border-gray-300"><strong>17:45 - 19:00</strong></td>
+      <td className="border-b-2 border-gray-300"><strong>17:30 - 19:00</strong></td>
       <td className="border-b-2 border-gray-300 text-center" colSpan="2">
         Networking and Dinner
       </td>

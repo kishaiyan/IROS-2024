@@ -1,6 +1,7 @@
 export default function Submission(){
   return (
     <div className="mb-4">
+      <h2 className="font-bold mb-2 ml-1">Sponsor: Sponsored by the IEEE Robotics and Automation Society</h2>
       <h4 className="text-lg font-bold mb-4 ml-1">Technical Support</h4>
       <ul className="list-disc ml-10 mb-4">
           <li><a href="https://www.ieeeagra.com/" className="text-blue-800 hover:font-bold">IEEE-Agricultural Robotics and Automation (ARA) Technical Committee</a></li>
